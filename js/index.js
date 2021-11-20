@@ -1,20 +1,71 @@
 $(document).ready(function() {
-    $('.owl-carousel').owlCarousel({
+    
+
+    $('#review-carousel').owlCarousel({
         loop:true,
         margin:10,
         nav:true,
-        responsive:{
-            0:{
-                items:1
-            },
-            600:{
-                items:3
-            },
-            1000:{
-                items:4
-            }
-        }
+        autoplay:true,
+        autoplayTimeout:10000,
+        autoplayHoverPause:true,
+        items: 1,
+        smartSpeed: 1000
     })
+
+    $('#gallery-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 4
+            }
+        },
+        smartSpeed: 1000
+    })
+
+    $('#preferred-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 3
+            }
+        },
+        smartSpeed: 1000
+    })
+
+    $('#providing-carousel').owlCarousel({
+        loop:true,
+        margin:10,
+        nav:true,
+        autoplay:true,
+        autoplayTimeout:3000,
+        autoplayHoverPause:true,
+        responsive: {
+            0: {
+                items: 1
+            },
+            600: {
+                items: 5
+            }
+        },
+        smartSpeed: 1000
+    })
+    
 
     $('#ba-slider-1').beforeAfter();
     $('#ba-slider-2').beforeAfter();
