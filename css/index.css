@@ -3,12 +3,13 @@
     background-repeat: no-repeat;
     background-size: contain;
 }
-
-.bg-banner{
-    background: linear-gradient(0deg, rgba(0,85,152,.2), rgba(0,85,152,.2)), url(https://cdn-dleep.nitrocdn.com/mRGDfXpzwMRLbvGmCQAXYeRtygRIifFF/assets/static/optimized/wp-content/uploads/2021/03/c6990d44c3c7c10e7a20d7d54ecebe21.Shaandaar_061.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+@media (min-width: 768px) {
+    .bg-banner{
+        background: linear-gradient(0deg, rgba(0,85,152,.2), rgba(0,85,152,.2)), url(https://cdn-dleep.nitrocdn.com/mRGDfXpzwMRLbvGmCQAXYeRtygRIifFF/assets/static/optimized/wp-content/uploads/2021/03/c6990d44c3c7c10e7a20d7d54ecebe21.Shaandaar_061.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 .bg-primary{
