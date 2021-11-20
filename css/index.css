@@ -1,0 +1,55 @@
+.bg-logo{
+    background-image: url(https://cdn-dleep.nitrocdn.com/mRGDfXpzwMRLbvGmCQAXYeRtygRIifFF/assets/static/optimized/wp-content/uploads/2021/02/8c30b8165a366b7ea80495c9427a79f3.Favicon-03-1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.bg-primary{
+    background-color: #6ed7d6
+}
+
+.ba-slider .handle {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    margin-left: -1px;
+    background: rgba(30, 58, 138, 0.5);
+    cursor: ew-resize;
+}
+
+.bg-blue-tooth {
+    background-image: url(https://cdn-dleep.nitrocdn.com/mRGDfXpzwMRLbvGmCQAXYeRtygRIifFF/assets/static/optimized/wp-content/uploads/2020/04/e34180c5cf68cd81e361d8a0b9697303.pattern.jpg);
+}
+
+.ba-slider .handle:after {
+    position: absolute;
+    top: 50%;
+    width: 32px;
+    height: 32px;
+    margin: -16px 0 0 -16px;
+    content: '\21d4';
+    color: #fff;
+    font-size: 24px;
+    text-align: center;
+    line-height: 24px;
+    background: rgba(30, 58, 138, 0.5);
+    border: 1px solid rgba(30, 58, 138, 0.5);
+    border-radius: 50%;
+    transition: all .3s ease;
+    box-shadow: 0 2px 6px rgb(0 0 0 / 30%), inset 0 2px 0 rgb(255 255 255 / 50%), inset 0 60px 50px -30px rgba(30, 58, 138, 0.5);
+}
+
+.ba-slider .handle.ba-draggable:after {
+    width: 32px;
+    height: 32px;
+    margin: -16px 0 0 -16px;
+    line-height: 24px;
+    font-size: 24px;
+}
+
+.owl-stage{
+    display:flex;
+    align-items:center;
+}
