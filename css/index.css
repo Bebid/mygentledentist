@@ -1,3 +1,7 @@
+html, body{
+    font-family: 'Montserrat', sans-serif;
+}
+
 .bg-logo{
     background-image: url(https://cdn-dleep.nitrocdn.com/mRGDfXpzwMRLbvGmCQAXYeRtygRIifFF/assets/static/optimized/wp-content/uploads/2021/02/8c30b8165a366b7ea80495c9427a79f3.Favicon-03-1.png);
     background-repeat: no-repeat;
