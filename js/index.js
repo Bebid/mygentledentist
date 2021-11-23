@@ -1,5 +1,4 @@
 $(document).ready(function() {
-    
 
     $('#review-carousel').owlCarousel({
         loop:true,
@@ -74,5 +73,15 @@ $(document).ready(function() {
     $('#menu-bar').click(function(){
         $('#navigation-list').toggleClass('hidden');
         $(this).toggleClass('fa-bars fa-times')
+    });
+
+    $('#mainNav > li, #subNav > li').hover(function() {
+        $(this).children('ul').toggleClass('hidden');
+        $(this).toggleClass('border-b-2');
+    });
+
+    $('#navigation-list > li, #subNav > li').click(function(e) {
+        e.stopPropagation();
+        $(this).children('ul').toggleClass('hidden');
     });
 })
